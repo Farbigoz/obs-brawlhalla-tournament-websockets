@@ -10,6 +10,7 @@ VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
 
 ## Параметры OBS-Websockets
 Параметры расположены в файле `config.json`
+```json
 {
     "obs": {
         "host": "localhost",
