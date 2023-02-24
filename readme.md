@@ -5,6 +5,10 @@
 Реализация: **python 3.9** + **OBS-Websockets**
 
 
+![](docs/images/obs1.png)
+![](docs/images/obs2.png)
+
+
 ## Контакты
 VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
 
@@ -350,7 +354,7 @@ bh.prematch.modSeed = (
 
 ```
 
-`bh.empty` - Пустая строка. Используется если нужно к строке прибавить данные.
 
-![alt text](docs/images/obs.png)
+
+`bh.empty` - Пустая строка. Используется если нужно к строке прибавить данные.
 
