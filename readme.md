@@ -5,6 +5,9 @@
 Реализация: **python 3.9** + **OBS-Websockets**
 
 
+## Контакты
+VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
+
 ## Параметры OBS-Websockets
 Параметры расположены в файле `config.json`
 ```json
