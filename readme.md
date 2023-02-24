@@ -10,11 +10,15 @@ VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
 
 ## Параметры OBS-Websockets
 Параметры расположены в файле `config.json`
-```json
 {
-    "host": "localhost",
-    "port": 4455,
-    "password": "********"
+    "obs": {
+        "host": "localhost",
+        "port": 4455,
+        "password": "********"
+    },
+    "startGG": {
+        "seedPath": "D:/.../.../... .csv"
+    }
 }
 ```
 
