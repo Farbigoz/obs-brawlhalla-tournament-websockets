@@ -136,52 +136,52 @@
 
 |            Название источника             | Тип источника | p[1;2] | t[1;2] | t[1;2].p[1;2] |                 Описание                  | Реализовано |
 |:-----------------------------------------:|:-------------:|:------:|:------:|:-------------:|:-----------------------------------------:|:-----------:|
-|      **bh.postmatch.nickname.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |              Никнейм игрока               |             |
-|         **bh.postmatch.id.[dst]**         |    *Текст*    |   ✔    |   ❌    |       ✔       |                Айди игрока                |             |
-|       **bh.postmatch.score.[dst]**        |    *Текст*    |   ✔    |   ❌    |       ✔       |                   Счёт                    |             |
-|        **bh.postmatch.skin.[dst]**        | *Изображение* |   ✔    |   ❌    |       ✔       |                Скин игрока                |             |
-|        **bh.postmatch.face.[dst]**        | *Изображение* |   ✔    |   ❌    |       ✔       |          Миниатюра скина игрока           |             |
-|     **bh.postmatch.timeOnWall.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время на стене               |             |
-|    **bh.postmatch.timeOnGround.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время на земле               |             |
-|     **bh.postmatch.timeOnAir.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время в воздухе              |             |
-|    **bh.postmatch.damageTaken.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Нанесённый урон              |             |
-|    **bh.postmatch.damageDealt.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Полученный урон              |             |
-|  **bh.postmatch.teamDamageTaken.[dst]**   |    *Текст*    |   ❌    |   ❌    |       ✔       |     Нанесённый урон по члену команды      |             |
-|  **bh.postmatch.teamDamageDealt.[dst]**   |    *Текст*    |   ❌    |   ❌    |       ✔       |     Полученный урон от членов команды     |             |
-|      **bh.postmatch.teamKOs.[dst]**       |    *Текст*    |   ❌    |   ❌    |       ✔       |     Количество убийств членов команды     |             |
-|      **bh.postmatch.suicides.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |          Количество самоубийств           |             |
-|        **bh.postmatch.KOs.[dst]**         |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество убийств             |             |
-|       **bh.postmatch.deaths.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество смертей             |             |
-|     **bh.postmatch.airDodges.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |      Количество уклонений в воздухе       |             |
-|       **bh.postmatch.dashes.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |             Колчисетво дэшей              |             |
-|    **bh.postmatch.totalDodges.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Всего уклонений              |             |
-|      **bh.postmatch.airJumps.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |       Количество прыжков в воздухе        |             |
-|     **bh.postmatch.dashJumps.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |          Количество дэш-прыжков           |             |
-|     **bh.postmatch.totalJumps.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |               Всего прыжков               |             |
-|      **bh.postmatch.clashes.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |             Количество кдэшей             |             |
+|      **bh.postmatch.nickname.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |              Никнейм игрока               |      ✔      |
+|         **bh.postmatch.id.[dst]**         |    *Текст*    |   ✔    |   ❌    |       ✔       |                Айди игрока                |      ✔      |
+|       **bh.postmatch.score.[dst]**        |    *Текст*    |   ✔    |   ❌    |       ✔       |                   Счёт                    |      ✔      |
+|        **bh.postmatch.skin.[dst]**        | *Изображение* |   ✔    |   ❌    |       ✔       |                Скин игрока                |      ✔      |
+|        **bh.postmatch.face.[dst]**        | *Изображение* |   ✔    |   ❌    |       ✔       |          Миниатюра скина игрока           |      ✔      |
+|     **bh.postmatch.timeOnWall.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время на стене               |      ✔      |
+|    **bh.postmatch.timeOnGround.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время на земле               |      ✔      |
+|     **bh.postmatch.timeOnAir.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |              Время в воздухе              |      ✔      |
+|    **bh.postmatch.damageTaken.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Нанесённый урон              |      ✔      |
+|    **bh.postmatch.damageDealt.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Полученный урон              |      ✔      |
+|  **bh.postmatch.teamDamageTaken.[dst]**   |    *Текст*    |   ❌    |   ❌    |       ✔       |     Нанесённый урон по члену команды      |      ✔      |
+|  **bh.postmatch.teamDamageDealt.[dst]**   |    *Текст*    |   ❌    |   ❌    |       ✔       |     Полученный урон от членов команды     |      ✔      |
+|      **bh.postmatch.teamKOs.[dst]**       |    *Текст*    |   ❌    |   ❌    |       ✔       |     Количество убийств членов команды     |      ✔      |
+|      **bh.postmatch.suicides.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |          Количество самоубийств           |      ✔      |
+|        **bh.postmatch.KOs.[dst]**         |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество убийств             |      ✔      |
+|       **bh.postmatch.deaths.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество смертей             |      ✔      |
+|     **bh.postmatch.airDodges.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |      Количество уклонений в воздухе       |      ✔      |
+|       **bh.postmatch.dashes.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |             Колчисетво дэшей              |      ✔      |
+|    **bh.postmatch.totalDodges.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |              Всего уклонений              |      ✔      |
+|      **bh.postmatch.airJumps.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |       Количество прыжков в воздухе        |      ✔      |
+|     **bh.postmatch.dashJumps.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |          Количество дэш-прыжков           |      ✔      |
+|     **bh.postmatch.totalJumps.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |               Всего прыжков               |      ✔      |
+|      **bh.postmatch.clashes.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |             Количество кдэшей             |      ✔      |
 
 
 #### Статистика по оружиям/атакам
 
 |                   Название источника                   | Тип источника | p[1;2] | t[1;2] | t[1;2].p[1;2] |                   Описание                   | Реализовано |
-|:------------------------------------------------------:|:-------------:|:------:|:------:|:-------------:|:--------------------------------------------:|:-----------:|
-|          **bh.postmatch.[weapon].icon.[dst]**          | *Изображение* |   ✔    |   ❌    |       ✔       |                Иконка оружия                 |             |
-|        **bh.postmatch.[weapon].timeHeld.[dst]**        |    *Текст*    |   ✔    |   ❌    |       ✔       |             Время использования              |             |
-|      **bh.postmatch.[weapon].damageTaken.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |        Полученный урон на этом оружии        |             |
-|     **bh.postmatch.[weapon].[attack].uses.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |           Количество использований           |             |
-|   **bh.postmatch.[weapon].[attack].enemyHits.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |             Количество попаданий             |             |
-|  **bh.postmatch.[weapon].[attack].enemyDamage.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       |               Нанесённый урон                |             |
-|   **bh.postmatch.[weapon].[attack].enemyKOs.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |              Количество убийств              |             |
-|    **bh.postmatch.[weapon].[attack].GCUses.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |         Количество использований ГЦ          |             |
-|  **bh.postmatch.[weapon].[attack].GCEnemyHits.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       |           Количество попаданий ГЦ            |             |
-| **bh.postmatch.[weapon].[attack].GCEnemyDamage.[dst]** |    *Текст*    |   ✔    |   ❌    |       ✔       |       Количество нанесённого урона ГЦ        |             |
-|  **bh.postmatch.[weapon].[attack].GCEnemyKOs.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество убийств ГЦ             |             |
-|   **bh.postmatch.[weapon].[attack].teamHits.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |    Количество попаданий по членам команды    |             |
-|  **bh.postmatch.[weapon].[attack].teamDamage.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |  Количство урона нанесённое членам команды   |             |
-|    **bh.postmatch.[weapon].[attack].teamKOs.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |      Количество убийств членов команды       |             |
-|  **bh.postmatch.[weapon].[attack].GCTeamHits.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |  Количество попаданий по членам команды ГЦ   |             |
-| **bh.postmatch.[weapon].[attack].GCTeamDamage.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       | Количство урона нанесённое членам команды ГЦ |             |
-|   **bh.postmatch.[weapon].[attack].GCTeamKOs.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |     Количество убийств членов команды ГЦ     |             |
+|:------------------------------------------------------:|:-------------:|:------:|:------:|:-------------:|:--------------------------------------------:|:----------:|
+|          **bh.postmatch.[weapon].icon.[dst]**          | *Изображение* |   ✔    |   ❌    |       ✔       |                Иконка оружия                 |      ✔     |
+|        **bh.postmatch.[weapon].timeHeld.[dst]**        |    *Текст*    |   ✔    |   ❌    |       ✔       |             Время использования              |      ✔     |
+|      **bh.postmatch.[weapon].damageTaken.[dst]**       |    *Текст*    |   ✔    |   ❌    |       ✔       |        Полученный урон на этом оружии        |      ✔     |
+|     **bh.postmatch.[weapon].[attack].uses.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |           Количество использований           |      ✔     |
+|   **bh.postmatch.[weapon].[attack].enemyHits.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |             Количество попаданий             |      ✔     |
+|  **bh.postmatch.[weapon].[attack].enemyDamage.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       |               Нанесённый урон                |      ✔     |
+|   **bh.postmatch.[weapon].[attack].enemyKOs.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |              Количество убийств              |      ✔     |
+|    **bh.postmatch.[weapon].[attack].GCUses.[dst]**     |    *Текст*    |   ✔    |   ❌    |       ✔       |         Количество использований ГЦ          |      ✔     |
+|  **bh.postmatch.[weapon].[attack].GCEnemyHits.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       |           Количество попаданий ГЦ            |      ✔     |
+| **bh.postmatch.[weapon].[attack].GCEnemyDamage.[dst]** |    *Текст*    |   ✔    |   ❌    |       ✔       |       Количество нанесённого урона ГЦ        |      ✔     |
+|  **bh.postmatch.[weapon].[attack].GCEnemyKOs.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |            Количество убийств ГЦ             |      ✔     |
+|   **bh.postmatch.[weapon].[attack].teamHits.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |    Количество попаданий по членам команды    |      ✔     |
+|  **bh.postmatch.[weapon].[attack].teamDamage.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |  Количство урона нанесённое членам команды   |      ✔     |
+|    **bh.postmatch.[weapon].[attack].teamKOs.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |      Количество убийств членов команды       |      ✔     |
+|  **bh.postmatch.[weapon].[attack].GCTeamHits.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |  Количество попаданий по членам команды ГЦ   |      ✔     |
+| **bh.postmatch.[weapon].[attack].GCTeamDamage.[dst]**  |    *Текст*    |   ✔    |   ❌    |       ✔       | Количство урона нанесённое членам команды ГЦ |      ✔     |
+|   **bh.postmatch.[weapon].[attack].GCTeamKOs.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |     Количество убийств членов команды ГЦ     |     ✔      |
 
 
 ## Комбиноирование статистики
