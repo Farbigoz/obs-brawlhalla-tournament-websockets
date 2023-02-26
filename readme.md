@@ -12,7 +12,13 @@
 ## Контакты
 VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
 
-## Параметры OBS-Websockets
+
+## Прогресс и задачи
+
+Trello: [Brawlhalla tournament-manager](https://trello.com/b/RlF4mRI7/brawlhalla-tournament-manager)
+
+
+## Параметры
 Параметры расположены в файле `config.json`
 ```json
 {
@@ -26,6 +32,7 @@ VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
     }
 }
 ```
+
 
 ## Поддерживаемые режимы игры
 - **Stock FFA**
@@ -171,9 +178,9 @@ VK: [Столяров Сергей](https://vk.com/fabriziog) - Разраб.
 |      **bh.postmatch.score.[dst]**      |    *Текст*    |   ✔    |   ❌    |       ✔       |                       Счёт                       |      ✔      |
 |      **bh.postmatch.skin.[dst]**       | *Изображение* |   ✔    |   ❌    |       ✔       |                   Скин игрока                    |      ✔      |
 |      **bh.postmatch.face.[dst]**       | *Изображение* |   ✔    |   ❌    |       ✔       |              Миниатюра скина игрока              |      ✔      |
-|          **bh.inmatch.seed**           |    *Текст*    |   ✔    |   ❌    |       ✔       |    Seed игрока (При наличии .csv с start.gg)     |      ✔      |
-|         **bh.inmatch.country**         |    *Текст*    |   ✔    |   ❌    |       ✔       |   Страна игрока (При наличии .csv с start.gg)    |      ✔      |
-|      **bh.inmatch.countryImage**       | *Изображение* |   ✔    |   ❌    |       ✔       | Флаг страны игрока (При наличии .csv с start.gg) |      ✔      |
+|         **bh.postmatch.seed**          |    *Текст*    |   ✔    |   ❌    |       ✔       |    Seed игрока (При наличии .csv с start.gg)     |      ✔      |
+|        **bh.postmatch.country**        |    *Текст*    |   ✔    |   ❌    |       ✔       |   Страна игрока (При наличии .csv с start.gg)    |      ✔      |
+|     **bh.postmatch.countryImage**      | *Изображение* |   ✔    |   ❌    |       ✔       | Флаг страны игрока (При наличии .csv с start.gg) |      ✔      |
 |   **bh.postmatch.timeOnWall.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |                  Время на стене                  |      ✔      |
 |  **bh.postmatch.timeOnGround.[dst]**   |    *Текст*    |   ✔    |   ❌    |       ✔       |                  Время на земле                  |      ✔      |
 |    **bh.postmatch.timeOnAir.[dst]**    |    *Текст*    |   ✔    |   ❌    |       ✔       |                 Время в воздухе                  |      ✔      |
